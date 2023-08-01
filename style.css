@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+}
+div{
+    background-color: rgb(128, 11, 11);
+    height: 50px;
+    color: white;
+}
+h4{
+    padding: 15px 0 0 20px;
+}
+h1{
+    margin: 40px 0 0 300px;
+    color: rgb(85, 9, 9);
+}
+p{
+    width: 370px;
+    margin: 30px 0 0 300px;
+    line-height: 30px;
+    color: rgb(39, 38, 38);
+}
+form{
+    width: 400px;
+    margin: 0 0 0 300px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 10px;
+}
+input{
+    height: 20px;
+}
+footer{
+    background-color: gray;
+}
+.paragrafo-footer{
+    color: rgb(102, 14, 14);
+    text-align: center;
+}
