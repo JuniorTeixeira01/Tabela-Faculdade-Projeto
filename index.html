@@ -19,21 +19,23 @@
 
         <form action="">
             <label for="">Nome:</label>
-            <input type="text">
+            <input type="text" name="nome" placeholder="Digite se Nome " required>
             <label for="">Data de Nascimento:</label>
-            <input type="date">
+            <input type="date" name="data" min="2020-01-01" max="2024-12-30" required>
             <label for="">Email:</label>
-            <input type="email">
+            <input type="email" name="email" placeholder="nomemail@email.com" required>
             <label for="">Telefone:</label>
-            <input type="tel">
+            <input type="tel" name="telefone" placeholder="(XX)XXXXX-XXXX" minlength="13" maxlength="13">
             <label for="">Melhor dia para vencimento:</label>
-            <input type="number">
+            <input type="number" name="data vencimento" placeholder="Valores entre 5 e 25" min="5" max="25" required>
             <label for="">Login:</label>
-            <input type="password">
+            <input type="text" name="Login" placeholder="Digite seu Login" required>
+            <label for="">Senha:</label>
+            <input type="password" name="senha" placeholder="Digite sua senha" minlength="4" maxlength="6" required >
         </form>
     </main>
     <footer>
-        <p class="paragrafo-footer">Copyright ₢ 2022 - Faculdade</p>
+        <p class="paragrafo-footer">Copyright &copy; 2022 - Faculdade</p>
     </footer>
     
 </body>
